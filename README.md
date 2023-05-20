@@ -25,7 +25,7 @@
 </p>
 
 ### Heruko Deploy
-<a href="https://heroku.com/deploy?template=https://github.com/akshay4884/test-acceptor">
+<a href="https://heroku.com/deploy?template=https://github.com/akshay4884/TF-Req-Acceptor">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
