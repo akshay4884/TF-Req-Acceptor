@@ -22,7 +22,7 @@ async def start(client: pr0fess0r_99, message: Message):
       ],[
       InlineKeyboardButton("𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴", url=f"https://t.me/mm_v3_bot")
       ]]
-    await message.reply_text(text="**𝙷𝙴𝙻𝙻𝙾 {mention}...⚡\n\n𝙸 𝙰𝙼 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙰𝚄𝚃𝙾 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙲𝙲𝙴𝙿𝚃 𝙱𝙾𝚃.\n𝙸 𝚌𝚊𝚗 𝚊𝚙𝚙𝚛𝚘𝚟𝚎 𝚞𝚜𝚎𝚛𝚜 𝚓𝚘𝚒𝚗 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 𝚒𝚗 𝙶𝚛𝚘𝚞𝚙𝚜/𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜... \n𝙸 𝚠𝚘𝚛𝚔 𝚏𝚘𝚛 @TEAMTELEFLIXX**", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
+    await message.reply_text(text="**𝙷𝙴𝙻𝙻𝙾 ...⚡\n\n𝙸 𝙰𝙼 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝚃𝙴𝙻𝙴𝙶𝚁𝙰𝙼 𝙰𝚄𝚃𝙾 𝚁𝙴𝚀𝚄𝙴𝚂𝚃 𝙰𝙲𝙲𝙴𝙿𝚃 𝙱𝙾𝚃.\n𝙸 𝚌𝚊𝚗 𝚊𝚙𝚙𝚛𝚘𝚟𝚎 𝚞𝚜𝚎𝚛𝚜 𝚓𝚘𝚒𝚗 𝚁𝚎𝚚𝚞𝚎𝚜𝚝 𝚒𝚗 𝙶𝚛𝚘𝚞𝚙𝚜/𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜... \n𝙸 𝚠𝚘𝚛𝚔 𝚏𝚘𝚛 @TEAMTELEFLIXX**", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
 
 @pr0fess0r_99.on_chat_join_request(filters.chat(CHAT_ID))
 async def autoapprove(client: pr0fess0r_99, message: ChatJoinRequest):
